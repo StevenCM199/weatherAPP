@@ -26,6 +26,7 @@ html{
   background: lightblue;
   grid-template-rows: 1fr 5fr;
   box-shadow: 30px 25px 5px 0px rgba(0,0,0,0.75);
+  background: url('../src/assets/weather.jpg');
 }
 
 .weather-location{

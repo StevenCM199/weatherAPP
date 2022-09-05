@@ -25,10 +25,8 @@ const WeatherCard = () => {
     setIsCelsius(!isCelsius)
   }
 
-
-  
   return (
-    <div className='weather-card' style={{background: weatherBG !== '' ? `url(${weatherBG}) center` : 'lightblue'}}>
+    <div className='weather-card' style={{background: `url(${weatherBG}) center`}}>
       <div className="title-container">
         <h1 className='weather-location'>{wInfo.name}{', '}{ wInfo.sys?.country}</h1>
       </div>
